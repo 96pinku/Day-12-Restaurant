@@ -1,0 +1,60 @@
+.nav{
+    width: 100%;
+    min-height: 4rem;
+    background-color: rgb(38, 51, 41);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.nav .logo{
+    color: white;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.nav ul li{
+    padding: 0rem 1rem;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li:hover{
+    cursor: pointer;
+    color: blue;
+}
+.nav .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 2.3rem;
+    padding: 0.5rem 1.3rem;
+    border-radius: 0.6rem;
+    color: white;
+    background-color: rgb(234, 13, 194);
+    border: 1px solid rgb(13, 13, 14);
+}
+
+.nav .btn:hover{
+    cursor: pointer;
+    background-color: rgb(12, 217, 98);
+}

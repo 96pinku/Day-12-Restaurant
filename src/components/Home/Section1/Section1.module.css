@@ -1,0 +1,57 @@
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230706/pngtree-3d-render-of-the-interior-of-a-cozy-cafe-restaurant-image_3811953.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.section1 .content {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    z-index: 10;
+}
+.section1 .content h1{
+    font-size: 3.5rem;
+    text-align: center;
+    color: black;
+    span{
+        color:white;
+    }
+}
+.section1 .content p{
+    width: 80%;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+}
+.section1 .content .buttons{
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 0rem 5rem;
+}
+
+@media screen and (max-width:800px) {
+    .section1{
+        justify-content: center;
+    }
+    
+    .section1 .content div{ 
+        justify-content: center;
+    }
+
+    .section1 .content {
+        width: 100%;
+    }
+    .section1 .content p{
+        width: 90%;
+    }
+}

@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+    color: rgb(11, 222, 32);
+}
+
+.card .icon{
+    font-size: 2rem;
+}
+.card .content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.card .content h1{
+    font-size: 1.6rem;
+}
+.card .content p{
+    font-size: 1.3rem;
+    color: rgb(23, 22, 22);
+}
+
+@media screen and (max-width: 1300px) {
+    .card{
+        flex-direction: column;
+       
+    }        
+    .card .content{
+        align-items: center;
+    }
+}
